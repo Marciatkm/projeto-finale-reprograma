@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background: white;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar a {
+    color:#632e86;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  ul li{
+    list-style: none;
+  }
+
+.button{
+  
+  transition: all .5s;
+  border: 5px solid transparent;
+    
+}
+
+.button:hover{
+    border: 5px solid #632e86;
+    
+    border-radius: 40%;
+    -webkit-filter: drop-shadow(10px 5px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(10px 5px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+ 
+  
+  
