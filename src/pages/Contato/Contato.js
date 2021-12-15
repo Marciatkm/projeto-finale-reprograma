@@ -4,7 +4,7 @@ import { DiGithubBadge } from 'react-icons/di'
 import { SiMinutemailer } from 'react-icons/si'
 import Menu from '../../componentes/Menu/Menu'
 import Header from '../../componentes/Header/Header'
-
+import ImageContato from '../../assets/contato.svg'
 import Footer from '../../componentes/Footer/Footer'
 
 import '../Contato/contato.styles.css'
@@ -14,7 +14,7 @@ const Contato = () => {
    <>
     <Menu />
 
-    {/* <Header image={ImageContato}>Chama no contatinho</Header> */}
+    <Header image={ImageContato}>Chama no contatinho</Header> 
 
     <div className="redes-sociais">
      <br /><br />

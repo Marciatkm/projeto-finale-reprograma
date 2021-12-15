@@ -13,12 +13,12 @@ const Questions = [
     },
 
     {
-        questionText:'Quantas  tartarugas marinha existem?',
+        questionText:'Quantas  tartarugas marinha existem no mundo?',
         answerOptions:[
-            {answerText:'7 ', isCorrect:true},
             {answerText:'2 ', isCorrect:false},
             {answerText:'15 ', isCorrect:false},
-            {answerText:'11 ', isCorrect:false}
+            {answerText:'11 ', isCorrect:false},
+            {answerText:'7 ', isCorrect:true}
         ],
 
     },
@@ -26,20 +26,20 @@ const Questions = [
     {
         questionText:'Quantas especies estão em extinção?',
         answerOptions:[
-            {answerText:'1', isCorrect:true},
-            {answerText:'3', isCorrect:false},
-            {answerText:'7', isCorrect:false},
-            {answerText:'5', isCorrect:false}
+            {answerText:'Uma', isCorrect:false},
+            {answerText:'Todas', isCorrect:true},
+            {answerText:'Sete', isCorrect:false},
+            {answerText:'Três', isCorrect:false}
         ],
 
     },
 
     {
-        questionText:'Quantas especies mora no Brasil?',
+        questionText:'Quantas espécies mora no Brasil?',
         answerOptions:[
-            {answerText:'1', isCorrect:true},
+            {answerText:'1', isCorrect:false},
             {answerText:'3', isCorrect:false},
-            {answerText:'5', isCorrect:false},
+            {answerText:'5', isCorrect:true},
             {answerText:'7', isCorrect:false}
         ],
 
