@@ -24,7 +24,7 @@ const Questions = [
     },
 
     {
-        questionText:'Quantas especies estão em extinção?',
+        questionText:'Quantas especies estão em risco de extinção?',
         answerOptions:[
             {answerText:'Uma', isCorrect:false},
             {answerText:'Todas', isCorrect:true},
