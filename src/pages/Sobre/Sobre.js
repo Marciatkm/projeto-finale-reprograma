@@ -13,18 +13,9 @@ const Sobre = () => {
    <>
     <Menu />
     <Header image={ImageSobre}>Sobre mim</Header>
-    <div className='main'>
-      <img src="https://j.gifs.com/Y7lgwY.gif" alt="foto" />
-      <div>
-        <h2>Márcia Tadakuma</h2>
-        <p>Desenvolvedora Jr</p>
-        <Quiz/>
-       
-      </div>
-      
-    </div>
-    
     <Quiz/>
+    
+    
     <Footer />
   </>
  )
