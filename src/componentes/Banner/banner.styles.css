@@ -1,4 +1,9 @@
-.imagem{
-    height: 700px;
-    width: 100%;
-}
+
+  
+  
+  
+  .banner img {
+    
+    width: 100vw;
+    height: 50vh;
+  }

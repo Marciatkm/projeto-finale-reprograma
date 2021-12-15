@@ -8,7 +8,7 @@ import '../Portfolio/portfolio.styles.css'
 
 const Portfolio = () => {
   const [repositories, setRepositories] = useState([])
-
+  
   useEffect(()=>{
     async function getData(){
       const response = await fetch('https://api.github.com/users/marciatkm/repos')
