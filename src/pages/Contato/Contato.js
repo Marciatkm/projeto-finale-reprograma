@@ -16,43 +16,31 @@ const Contato = () => {
 
     <Header image={ImageContato}>Chama no contatinho</Header> 
 
-    <div className="redes-sociais">
-     <br /><br />
-     <br /><br />
-     <br /><br />
-
-     <div className='main'>
-       <img src="https://j.gifs.com/Y7lgwY.gif" alt="foto" />
+    <div className='main'>
+    <img src="https://j.gifs.com/Y7lgwY.gif" alt="foto" />
       <div>
-        <h2>Márcia Tadakuma</h2>
-        <p>Desenvolvedora Jr</p>
-       
+           <h2>Márcia Tadakuma</h2>
+           <p>Desenvolvedora Jr</p>
       </div>
-      
-     </div >
+    </div>
+    <div className="redes-sociais">
       <p className="siga">Siga-me nas redes sociais:</p>
       <p className='email'> <SiMinutemailer size={21} color="rgb(56, 56, 56)"/>  marciatadakuma@gmail.com</p> 
-
-       <div className='icones' >
-
-         <a href="https://github.com/marciatkm" target="_blank" rel="noreferrer">
+      <div>
+      <a href="https://github.com/marciatkm" target="_blank" rel="noreferrer">
            <DiGithubBadge size={92} color="rgb(56, 56, 56)"/>
          </a>
          <a href="https://linkedin.com/in/marcia-tadakuma" target="_blank" rel="noreferrer">
            <TiSocialLinkedinCircular size={89} color="rgb(56, 56, 56)"/>
          </a>
-         <a href="https://www.instagram.com/marcinhatkm/"  target="_blank" rel="noreferrer">
+         <a href="https://www.instagram.com/marcinhatkm/"  target="_blank" rel="noreferrer"> </a>
           <TiSocialInstagramCircular size={88} color="rgb(56, 56, 56)"/>
-        </a>
-
-       
       </div>
-      
     </div>
 
-    <br /><br />
-    <br /><br />
     
+      
+     
     <Footer/>
     
     

@@ -1,8 +1,8 @@
 .header {
     padding: 80px;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:white;
     background-size: cover;
     height: 500px;
   }

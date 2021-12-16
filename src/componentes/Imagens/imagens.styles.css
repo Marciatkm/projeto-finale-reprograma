@@ -2,8 +2,9 @@
 
 
 .fotos imagem{
-    display: flex;
-    width: 10px;
-    height: 64px;
-   
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
 }
