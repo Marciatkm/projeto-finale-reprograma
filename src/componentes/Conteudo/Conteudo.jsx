@@ -1,6 +1,5 @@
 import "../Conteudo/conteudo.styles.css"
-import Planeta from "../../assets/Tartaruga-planeta.png"
-import Imagens from "../Imagens/Imagens"
+
  import "../Conteudo/conteudo.styles.css"
 
 const Conteudo = () => {
@@ -11,8 +10,8 @@ const Conteudo = () => {
         
         </div>
         <div class="child"><div className="turtle-img"></div></div>
-        <div class="child">sâmara</div>
-        <div class="child">grazi</div>
+        <div class="child">k</div>
+        <div class="child">ç</div>
     </div>
 
            
