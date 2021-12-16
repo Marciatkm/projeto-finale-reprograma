@@ -20,6 +20,7 @@ const Contato = () => {
     <img src="https://j.gifs.com/Y7lgwY.gif" alt="foto" />
       <div>
            <h2>Márcia Tadakuma</h2>
+           <p>Graduada em engenharia civil</p>
            <p>Desenvolvedora Jr</p>
       </div>
     </div>
@@ -33,8 +34,9 @@ const Contato = () => {
          <a href="https://linkedin.com/in/marcia-tadakuma" target="_blank" rel="noreferrer">
            <TiSocialLinkedinCircular size={89} color="rgb(56, 56, 56)"/>
          </a>
-         <a href="https://www.instagram.com/marcinhatkm/"  target="_blank" rel="noreferrer"> </a>
+         <a href="https://www.instagram.com/marcinhatkm/"  target="_blank" rel="noreferrer"> 
           <TiSocialInstagramCircular size={88} color="rgb(56, 56, 56)"/>
+          </a>
       </div>
     </div>
 
