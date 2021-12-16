@@ -28,3 +28,10 @@
     height: 200px;
     width: 1000px;
   }
+  .logoImagem {
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    margin: 2%;
+    padding: 20px;
+    }

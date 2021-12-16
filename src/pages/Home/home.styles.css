@@ -11,5 +11,13 @@
     font-size: 24px;
   }
   .imagem{
+    display: flex;
     width: 2200px;
   }
+  .logoImagem {
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    margin: 2%;
+    padding: 20px;
+    }
