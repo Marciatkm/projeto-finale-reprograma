@@ -4,16 +4,16 @@ const Questions = [
     {
         questionText:'Quantos anos a tarturaga marinha vive?',
         answerOptions:[
-            {answerText:'150 anos', isCorrect:true},
-            {answerText:'250 anos', isCorrect:false},
-            {answerText:'300 anos', isCorrect:false},
-            {answerText:'180 anos', isCorrect:false}
+            {answerText:'80 à 150 anos', isCorrect:true},
+            {answerText:'50 à 80 anos', isCorrect:false},
+            {answerText:'70 à 100 anos', isCorrect:false},
+            {answerText:'90 à 200 anos', isCorrect:false}
         ],
 
     },
 
     {
-        questionText:'Quantas  tartarugas marinha existem no mundo?',
+        questionText:'Quantas  tartarugas marinhas existem no mundo?',
         answerOptions:[
             {answerText:'2 ', isCorrect:false},
             {answerText:'15 ', isCorrect:false},
@@ -28,14 +28,14 @@ const Questions = [
         answerOptions:[
             {answerText:'Uma', isCorrect:false},
             {answerText:'Todas', isCorrect:true},
-            {answerText:'Sete', isCorrect:false},
+            {answerText:'nove', isCorrect:false},
             {answerText:'Três', isCorrect:false}
         ],
 
     },
 
     {
-        questionText:'Quantas espécies mora no Brasil?',
+        questionText:'Quantas espécies moram no Brasil?',
         answerOptions:[
             {answerText:'1', isCorrect:false},
             {answerText:'3', isCorrect:false},

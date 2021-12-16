@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import Questions from "../../Data/Database"
 import "../Quiz/quiz.styles.css"
 
@@ -37,7 +36,7 @@ function handleAnswer(isCorrect){
                 <div className="question-section">
 
                <div className="question-count" >
-               <span>Questão {currentQuestion + 1}</span>{Questions.length}
+               <span>Questão {currentQuestion + 1}/</span>{Questions.length}
                </div>
 
                <div className="question-text">

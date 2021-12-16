@@ -1,6 +1,5 @@
-.titulo{
-    color: blue;
-}
-.origem{
-    font: 12px;
+.imagem{
+    display: flex;
+    width: 65px;
+    height: 64px;
 }
