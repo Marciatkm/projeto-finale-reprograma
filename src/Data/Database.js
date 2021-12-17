@@ -43,7 +43,37 @@ const Questions = [
             {answerText:'7', isCorrect:false}
         ],
 
+    },
+    {
+        questionText:'Quantos quilômetro  a tartaruga nadam por hora?',
+        answerOptions:[
+            {answerText:'10km', isCorrect:false},
+            {answerText:'30km', isCorrect:false},
+            {answerText:'50km', isCorrect:true},
+            {answerText:'20km', isCorrect:false}
+        ],
+
+    },
+    {
+        questionText:'Tartarugas são animais solitários?',
+        answerOptions:[
+            
+            {answerText:'Verdadeiro', isCorrect:true},
+            {answerText:'Falso', isCorrect:false}
+        ],
+
+    },
+    {
+        questionText:'Quantoss filhotes sobrevivam?',
+        answerOptions:[
+            {answerText:'3 à 4', isCorrect:false},
+            {answerText:'1 à 2', isCorrect:true},
+            {answerText:'5 à 7', isCorrect:false},
+            {answerText:'10 à 20', isCorrect:false}
+        ],
+
     }
+
 
 
 ];
