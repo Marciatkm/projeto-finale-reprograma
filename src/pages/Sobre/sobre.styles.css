@@ -23,16 +23,12 @@
     font-weight: 900;
     font-size: 42px;
   } */
-  *{
+  /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-  .img{
-    display: flex;
-    height: 200px;
-    width: 1000px;
-  }
+} */
+  
   .logoImagem {
     height: 40%;
     width: 20%;
@@ -40,30 +36,63 @@
     margin: 2%;
     padding: 20px;
     }
-    .container{
-      height: 100%;
+    h1{
       display: flex;
-      padding: 10px;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content:space-around;
-   
-  }
-  .child{
-      display: flex;
-      width: 30%;
-      height: 200px;
-      padding: 30px;
-      margin: 20px;
-      background-color: white;
-      padding: 10px;
+      color: blue;
+      text-align: center;
+      flex-direction: row;
+      align-items: center;
     }
-    .tortuga{
+    .container{
       display: flex;
-      width: 300px;
+      height: 100%;
+      
+      padding: 10px;
+     
+  }
+  .caixao{
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+  .caixa-foto{
+    display: flex;
+    width: 30%;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    
+
+    }
+    .tortu{
+      display: flex;
+      width: 250px;
       height: 200px;
       background-repeat: no-repeat;
       background-position: center;
       border: 1px solid black;
       border-radius: 10px ;
+      margin: 10px;
+  }
+  /* .descricao{
+   flex-wrap: wrap;
+   text-align: justify;
+  } */
+  .foto{
+    display: flex;
+    justify-content: center;
+
+    padding: 300px;
+  }
+  .tres-foto{
+    display: flex;
+    margin-left: 130px;
+    justify-content: space-around;
+    
   }
