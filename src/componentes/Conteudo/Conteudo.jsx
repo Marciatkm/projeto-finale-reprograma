@@ -19,7 +19,7 @@ const Conteudo = () => {
             </div>
                 <div class="child">
                      
-                    <p className=" segundo-paragrafro">A poluição é uma das principais ameaças, pois degradam o ambiente marinho como um todo..<p>  clique aqui <a  href="https://www.youtube.com/watch?v=P8dQGL7jYg4"></a></p> </p>
+                <p className=" segundo-paragrafro">A poluição é uma das principais ameaças, pois degradam o ambiente marinho como um todo.. </p>
                      
                     <img className="tortuga" src={picTorguga} alt='foto de tartaruga marinha'/>  
                    
