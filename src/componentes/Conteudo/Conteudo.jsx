@@ -1,7 +1,6 @@
 import "../Conteudo/conteudo.styles.css"
 import picTorguga from "../../assets/Tartaruga-planeta.png"
 import ImageTurtle from "../../assets/home-turtle.jpg"
-import "../Conteudo/conteudo.styles.css"
 
 const Conteudo = () => {
     return(

@@ -15,7 +15,7 @@ const Menu = () => {
         <Link title="Sobre" className="link" to="/sobre">Sobre</Link>
        </li>
        <li className="button" >
-        <Link  title="Portfolio" className="link" to="/portfolio">Portfolio</Link>
+        <Link  title="Portfolio" className="link" to="/portfolio">Portfólio</Link>
        </li>
       <li className="button" >
         <Link title="Contato" className="link" to="/contato">Contato</Link>

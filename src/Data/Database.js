@@ -64,7 +64,7 @@ const Questions = [
 
     },
     {
-        questionText:'Quantoss filhotes sobrevivam?',
+        questionText:'Quantos filhotes sobrevivam?',
         answerOptions:[
             {answerText:'3 à 4', isCorrect:false},
             {answerText:'1 à 2', isCorrect:true},
