@@ -1,7 +1,9 @@
 .footer {
-  background: rgb(6,70,20);
-  background: linear-gradient(90deg, rgba(6,70,20,1) 0%, rgba(80,187,175,1) 54%, rgba(6,92,7,1) 98%);
-    color: white;
+  /* background: rgb(6,70,20);
+  background: linear-gradient(90deg, rgba(6,70,20,1) 0%, rgba(80,187,175,1) 54%, rgba(6,92,7,1) 98%);*/
+  background: rgb(91,103,223);
+  background: linear-gradient(90deg, rgba(91,103,223,1) 0%, rgba(10,237,223,1) 54%, rgba(15,24,116,1) 98%);
+    color: white; 
     text-align: center;
     height: 50px;
     left: 0;
