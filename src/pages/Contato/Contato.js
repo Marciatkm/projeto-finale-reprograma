@@ -20,8 +20,11 @@ const Contato = () => {
     <img src="https://j.gifs.com/Y7lgwY.gif" alt="foto" />
       <div>
            <h2>Márcia Tadakuma</h2>
-           <p> <b>Graduada em engenharia civil</b></p>
+           <p><b>Graduada em engenharia civil</b></p>
            <p><b>Desenvolvedora Jr</b></p>
+           <p><b>Amo filme de natal</b></p>
+           <p><b>Amo tocar instrumentos</b></p>
+           <p><b>Amo tartarugas e nataureza</b></p>
            <p className='site'> <b>Esse site foi desenvolvido como projeto final do curso bootcamp Reprograma que traz uma mensagem de preservação e amorao meio ambiente, e principalmentes a amada tartarugas marinhas."Em todas as coisas da natureza exixte algo de maravilhoso. 'Aristóteles', Amados jogue lixo no lixo,vamos cuidar e amar nosso Planetas </b></p>
            
       </div>

@@ -20,7 +20,7 @@ const Sobre = () => {
     <h1>Poluição na Imensidão Azul </h1>
     <div className='container-youtube'>
     
-    <a className='youtube' href='https://www.youtube.com/watch?v=P8dQGL7jYg4' target="_blank"  title="video salve as tartarugas"  > 
+    <a className='youtube' href='https://www.youtube.com/watch?v=P8dQGL7jYg4' target="_blank" rel="noreferrer" title="video salve as tartarugas"> 
     
     <img   className="video-poluicao" src={tPoluicao} alt='foto do video de poluição'/>
     
