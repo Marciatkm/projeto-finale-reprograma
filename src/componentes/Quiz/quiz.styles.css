@@ -1,24 +1,37 @@
 
-
-
+.container-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 68px;
+}
+.p-quiz{
+  padding-bottom: 2px;
+  margin: -13px;
+  
+}
 
 
 
 .app {
   
-  background: rgb(34,113,47);
-  background: radial-gradient(circle, rgba(34,113,47,0.6227533249627977) 43%, rgba(97,140,208,1) 84%);
-    width: 450px;
-    min-height: 200px;
+  background-image: url(../../assets/t-quiz.jpg);
+  
+  background-repeat: no-repeat;
+  background-size: 377px ;
+    
+    width: 659px;
+    height: 200px;
     height: min-content;
     border-radius: 15px;
-    padding: 20px;
+    padding: -4px;
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 500px;
-    bottom: 100px;
+    
+   
    
   }
   
@@ -32,24 +45,33 @@
   .question-section {
     width: 100%;
     position: relative;
-    color: #ffffff;
+    color: rgb(66 243 2);
 
   }
   
   .question-count {
+    font-size: 17px;
     margin-bottom: 20px;
+    color: rgb(243, 38, 2);
   }
   
   .question-count span {
+    color: white;
     font-size: 28px;
+    margin: 102px;
+    margin-right: -1px;
     
   }
   
   .question-text {
-    margin-bottom: 12px;
+    margin-bottom: 83px;
+    font-size: 19px;
+    padding: 9px;
+    padding-left: 107px;
+    color: white;
   }
   
-  .timer-text {
+  /* .timer-text {
     background: rgb(230, 153, 12);
     padding: 15px;
     margin-top: 20px;
@@ -57,32 +79,34 @@
     border: 5px solid rgb(255, 189, 67);
     border-radius: 15px;
     text-align: center;
-  }
+  } */
   
   /* ANSWERS/RIGHT SECTION */
   .answer-section {
-    width: 100%;
+    font-weight: bold;
+    margin-left: 81px;
+    width: 82%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   
   button {
-    width: 100%;
-    font-size: 16px;
+    width: 87%;
+    margin: 4px;
+    font-size: 17px;
     color: #ffffff;
-    
     background-color: rgb(55, 204, 172);
     border-radius: 15px;
-    display: flex;
-    padding: 5px;
+    display: inline-block;
+    padding: 6px;
     justify-content: flex-start;
     align-items: center;
-    border: 5px solid rgb(77, 55, 204);
+    border: 5px solid rgb(23, 94, 26);
     cursor: pointer;
   }
   
-  .correct {
+  correct {
     background-color: #2f922f;
   }
   
@@ -91,7 +115,7 @@
   }
   
   button:hover {
-    background-color: #80f3fc;
+    background-color: #39bb28;
   }
   
   button:focus {

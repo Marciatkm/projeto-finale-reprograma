@@ -1,6 +1,6 @@
 .footer {
-    background: rgb(161,240,220);
-    background: radial-gradient(circle, rgba(161,240,220,1) 1%, rgba(110,177,204,0.6227533249627977) 44%, rgba(116,236,236,1) 92%);
+  background: rgb(6,70,20);
+  background: linear-gradient(90deg, rgba(6,70,20,1) 0%, rgba(80,187,175,1) 54%, rgba(6,92,7,1) 98%);
     color: white;
     text-align: center;
     height: 50px;

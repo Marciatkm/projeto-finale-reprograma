@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Questions from "../../Data/Database"
+
 import "../Quiz/quiz.styles.css"
 
 
@@ -26,6 +27,7 @@ function handleAnswer(isCorrect){
 
     return(
         <>
+        <div className="container-app">
         <div className="app">
             {showScore ? (
             <div className="score-section" >
@@ -57,6 +59,7 @@ function handleAnswer(isCorrect){
             )}
         
 
+        </div>
         </div>
         </>
     )

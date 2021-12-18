@@ -4,7 +4,7 @@ const Header = (props) => {
  return (
     <div className="header">
       <h1>{props.children}</h1>
-      <img  src={props.image} alt='ilustracao de mulher' />
+      <img className='img-topo' src={props.image} alt='ilustracao de mulher' />
     </div>
   )
 }

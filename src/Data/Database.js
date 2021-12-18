@@ -2,7 +2,7 @@
 
 const Questions = [
     {
-        questionText:'Quantos anos a tarturaga marinha vive?',
+        questionText:'Quantos anos a tartaruga marinha vive?',
         answerOptions:[
             {answerText:'80 à 150 anos', isCorrect:true},
             {answerText:'50 à 80 anos', isCorrect:false},
@@ -24,7 +24,7 @@ const Questions = [
     },
 
     {
-        questionText:'Quantas especies estão em risco de extinção?',
+        questionText:'Quantas espécies estão em risco de extinção?',
         answerOptions:[
             {answerText:'Uma', isCorrect:false},
             {answerText:'Todas', isCorrect:true},
@@ -45,7 +45,7 @@ const Questions = [
 
     },
     {
-        questionText:'Quantos quilômetro  a tartaruga nadam por hora?',
+        questionText:'Quantos quilômetros  a tartaruga nada por hora?',
         answerOptions:[
             {answerText:'10km', isCorrect:false},
             {answerText:'30km', isCorrect:false},
@@ -64,7 +64,7 @@ const Questions = [
 
     },
     {
-        questionText:'Quantos filhotes sobrevivam?',
+        questionText:'Quantos filhotes sobrevivem após o seu nascimento?',
         answerOptions:[
             {answerText:'3 à 4', isCorrect:false},
             {answerText:'1 à 2', isCorrect:true},

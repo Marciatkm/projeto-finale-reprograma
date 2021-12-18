@@ -1,4 +1,22 @@
-.header {
+/* .header {
+    padding: 800px;
+    text-align: center;
+    color: black;
+    background-color:white;
+    background-size: cover;
+    height: 500px;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  .header img {
+    margin-top: 10px;
+    width: 20px;
+    
+  } */
+  .header {
     padding: 80px;
     text-align: center;
     color: black;
@@ -16,3 +34,37 @@
     width: 40vw;
     height: 60vh;
   }
+
+  @media(max-width: 800px){
+    .logoImagem {
+      height: 300px;
+      margin: 78px;
+      width: 296px;
+    
+    }
+    .img-topo{
+      
+      height:500px ;
+    }
+     /* .child{
+      
+      display: block;
+      margin: 66px;
+      height: 215px;
+    }
+    .child-primeiro{
+      display: block;
+    }
+    .child-segundo{
+      display: block;
+    }
+    .container{
+      height: 500px;
+      line-height: 32px;
+      display: inline-block;
+    
+}  */
+}     
+    
+  
+  

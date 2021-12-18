@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+   margin: 15px;
+}
 .container{
-    height: 100%;
+    height: 90%;
+    width: 100%;
     display: flex;
-    padding: 10px;
+    padding: 15px;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -24,21 +28,84 @@
 .primeiro-paragrafro{
     display: flex;
     justify-content:space-around;
-    font-size: 12px;
+    font-size: 15px;
     justify-content: center;
     text-align: justify;
-    margin: 20px;
+    margin: 12px;
+    margin-left: 20px;
+    line-height: 20px;
     
 
 }
 .segundo-paragrafro{
     display: flex;
     justify-content:space-around;
-    font-size: 12px;
+    font-size: 15px;
     justify-content: center;
     text-align: justify;
     margin-right: 20px;
-    padding: 15px;
+    padding: 40px;
+    line-height: 20px;
+}
+.tortuga{
+    
+    width:217px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+/* .container{
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.child{
+    display: flex;
+    width: 45%;
+    height: 500px;
+    padding: 20px 30%;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.child-primeiro{
+    height: 100px;
+}
+.child-segundo{
+    height: 100px;
+}
+.primeiro-paragrafro{
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    font-size: 15px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 10px;
+    margin: 20px;
+    
+
+}
+.segundo-paragrafro{
+    color: black;
+    font-size: bold;
+    display: flex;
+    justify-content:space-around;
+    font-size: 15px;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 20px;
+    padding: 50px;
+    line-height: 15px;
 }
 .tortuga{
     
@@ -49,4 +116,4 @@
     border: 1px solid black;
     border-radius: 10px ;
 }
-
+ */

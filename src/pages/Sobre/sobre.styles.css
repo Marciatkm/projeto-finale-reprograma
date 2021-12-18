@@ -1,56 +1,38 @@
-/* .main {
-    display: flex;
-    margin: 40px auto;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
-    padding: 50px;
-  }
-  
-  .main img {
-    justify-content: center;
-    text-align: center;
-    margin-top: 0;
-    width: 300x;
-    height: 300px;
-    border: 2px solid black;
-    border-radius: 50%;
-    
-  }
-  
-  .main h2 {
-    font-weight: 900;
-    font-size: 42px;
-  } */
-  /* *{
+ 
+   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}  
   
   .logoImagem {
-    height: 40%;
+    height: 55%;
     width: 20%;
     position: absolute;
-    margin: 2%;
-    padding: 20px;
+    margin: 80px;
+    padding: 0px;
     }
     h1{
       display: flex;
       color: blue;
+      
       text-align: center;
       flex-direction: row;
       align-items: center;
     }
-    .container{
+    .p-quiz{
+      display: flex;
+      margin: 10px;
+      padding-top: 110px;
+    }
+     /* .container{
       display: flex;
       height: 100%;
       
       padding: 10px;
      
-  }
-  .caixao{
+  } */
+   /* .caixao-{
     height: 100%;
     display: flex;
     padding: 10px;
@@ -58,7 +40,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
-}
+} 
   .caixa-foto{
     display: flex;
     width: 30%;
@@ -69,30 +51,46 @@
     padding: 10px;
     
 
-    }
-    .tortu{
-      display: flex;
-      width: 250px;
-      height: 200px;
-      background-repeat: no-repeat;
-      background-position: center;
-      border: 1px solid black;
-      border-radius: 10px ;
-      margin: 10px;
-  }
-  /* .descricao{
-   flex-wrap: wrap;
-   text-align: justify;
-  } */
-  .foto{
-    display: flex;
-    justify-content: center;
-
-    padding: 300px;
-  }
-  .tres-foto{
-    display: flex;
-    margin-left: 130px;
-    justify-content: space-around;
+    } */
     
+  
+  .ico-play{
+    display: flex;
+    
+
   }
+  /* a:hover {
+    color: rgb(72, 114, 192);
+    text-decoration: none;
+  }
+  .youtube{
+    color: rgb(192, 72, 192);
+    text-decoration: none;
+  } */
+   
+   .video-poluicao{
+
+     margin: 45px 40px 40px 60px;
+     width: 350px;
+     height: 300px;
+     padding: 1px;
+     border: 1px solid black;
+     
+ }
+ .container-youtube{
+   display: flex;
+   padding: 10px;
+   width: 90%;
+   
+ }
+ .paragrafo-poluicao{
+   display: flex;
+   margin-top: 70px;
+  text-align: justify;
+  line-height:25px;
+
+  
+ }
+ 
+
+ 

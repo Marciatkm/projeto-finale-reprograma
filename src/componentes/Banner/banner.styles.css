@@ -3,7 +3,18 @@
   
   
   .banner img {
+    background-position: center;
+    background-size: cover;
+    width: 1259px;
     
-    width: 100vw;
-    height: 50vh;
+    
   }
+  @media(max-width: 800px){
+    
+    .img{
+      height: 414px;
+      padding-right: 345px;
+      
+    }
+  }
+  
