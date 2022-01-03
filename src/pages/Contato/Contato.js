@@ -21,7 +21,7 @@ const Contato = () => {
       <div>
            <h2>Márcia Tadakuma</h2>
            <p><b>Graduada em engenharia civil</b></p>
-           <p><b>Desenvolvedora Jr</b></p>
+           <p><b>Desenvolvedora Jr na <span>Reprograma</span>  </b></p>
            <p><b>Amo filme de natal</b></p>
            <p><b>Amo tocar instrumentos</b></p>
            <p><b>Amo tartarugas e nataureza</b></p>
