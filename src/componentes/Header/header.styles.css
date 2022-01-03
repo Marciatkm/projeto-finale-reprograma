@@ -35,36 +35,8 @@
     height: 60vh;
   }
 
-  @media(max-width: 800px){
-    .logoImagem {
-      height: 300px;
-      margin: 78px;
-      width: 296px;
-    
-    }
-    .img-topo{
-      
-      height:500px ;
-    }
-     /* .child{
-      
-      display: block;
-      margin: 66px;
-      height: 215px;
-    }
-    .child-primeiro{
-      display: block;
-    }
-    .child-segundo{
-      display: block;
-    }
-    .container{
-      height: 500px;
-      line-height: 32px;
-      display: inline-block;
-    
-}  */
-}     
+  
+     
     
   
   
